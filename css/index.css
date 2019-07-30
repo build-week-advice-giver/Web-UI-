@@ -317,6 +317,11 @@ img {
   justify-content: space-between;
   padding-top: 100px;
 }
+@media (max-width: 800px) {
+  .topContentWrapper {
+    flex-direction: column;
+  }
+}
 @media (max-width: 500px) {
   .topContentWrapper {
     margin: 5%;
@@ -326,6 +331,12 @@ img {
 .topContentWrapper .topLeftContent {
   width: 40%;
   color: #0984e3;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .topContentWrapper .topLeftContent {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .topContentWrapper .topLeftContent {
@@ -356,6 +367,12 @@ img {
   display: flex;
   justify-content: flex-start;
 }
+@media (max-width: 800px) {
+  .topContentWrapper .topRightContent {
+    width: 100%;
+    height: auto;
+  }
+}
 @media (max-width: 500px) {
   .topContentWrapper .topRightContent {
     width: 0px;
@@ -365,6 +382,13 @@ img {
 .topContentWrapper .topRightContent img {
   margin-top: 100px;
   border-radius: 10%;
+  border: solid #74b9ff 10px;
+}
+@media (max-width: 800px) {
+  .topContentWrapper .topRightContent img {
+    margin-left: 4.8%;
+    border: solid #74b9ff 10px;
+  }
 }
 @media (max-width: 500px) {
   .topContentWrapper .topRightContent img {
@@ -372,7 +396,7 @@ img {
   }
 }
 .login-button {
-  width: 200px;
+  width: 450px;
   height: auto;
   border-radius: 10px;
   background-color: #0984e3;
@@ -381,11 +405,19 @@ img {
   font-size: 3rem;
   justify-content: center;
 }
+.login-button:hover {
+  color: black;
+}
+@media (max-width: 800px) {
+  .login-button {
+    width: 100%;
+    height: auto;
+  }
+}
 @media (max-width: 500px) {
   .login-button {
     width: 100%;
     height: auto;
-    padding-bottom: 50px;
   }
 }
 .bottomContentWrapper {
@@ -402,6 +434,12 @@ img {
 }
 .bottomContentWrapper .bottomLeftContent img {
   border-radius: 50px;
+  border: solid #0984e3 10px;
+}
+@media (max-width: 800px) {
+  .bottomContentWrapper .bottomLeftContent img {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .bottomContentWrapper .bottomLeftContent img {
@@ -411,6 +449,12 @@ img {
 .bottomContentWrapper .bottomRightContent {
   width: 40%;
   color: #0984e3;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .bottomContentWrapper .bottomRightContent {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .bottomContentWrapper .bottomRightContent {
