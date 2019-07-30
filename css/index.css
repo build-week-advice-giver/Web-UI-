@@ -134,14 +134,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Radley', serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -234,7 +234,7 @@ img {
 .header .topNav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 .header .topNav ul li a:hover {
@@ -281,6 +281,23 @@ img {
 .header .nav-toggle-label span::after {
   top: 7px;
 }
+footer {
+  width: 100%;
+  height: 50px;
+  background: #0984e3;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+footer .footerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footerWrapper p {
+  font-size: 1.3rem;
+  color: #dfe6e9;
+}
 .wrapper {
   background-color: #dfe6e9;
 }
@@ -290,7 +307,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 @media (max-width: 500px) {
   .titleWrapper {
@@ -406,7 +424,8 @@ img {
   justify-content: center;
 }
 .login-button:hover {
-  color: black;
+  background-color: #dfe6e9;
+  color: #0984e3;
 }
 @media (max-width: 800px) {
   .login-button {
@@ -464,6 +483,7 @@ img {
 .bottomContentWrapper .bottomRightContent h1 {
   padding-bottom: 35px;
   font-size: 6rem;
+  color: #74b9ff;
 }
 .bottomContentWrapper .bottomRightContent p {
   font-size: 3rem;
