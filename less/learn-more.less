@@ -15,10 +15,6 @@
         flex-direction: column;
         height: 350px;
     }
-    
-  
-     
-
         h1{
             font-size: 8rem;
             color: @electron-blue;
@@ -29,7 +25,6 @@
             border: solid @electron-blue 4px;
             border-radius: 50%;
         }
-
 }
 
 .contentWrapper{
@@ -50,33 +45,35 @@
         margin: 5%;
         text-align: center;
     }
-    
-
        .topLeftContent{
         width: 40%;
         color: @electron-blue;
         text-align: center;
+        background-color: @green-darner-tail;
+        border: solid @electron-blue 5px;
+        border-radius: 2%;
+        height: 670px;
         @media(max-width: 800px){
             width: 100%;
-            
+            padding: 2%;
         }
         @media(max-width: 500px){
             width: 100%;
             display: flex;
             justify-content: center;
             flex-direction: column;
+            height: 1080px;
         }
 
             h1{
             padding-bottom: 35px;
             font-size: 6rem;
-            color: @green-darner-tail;
+            color: white;
             }
                 p{
                 font-size: 3rem;
                 line-height: 4rem;
-                
-
+                color: white;
                 @media(max-width: 500px){
                     padding-bottom: 50px;
                     margin: 5%;
@@ -99,10 +96,11 @@
 
             img{
                 margin-top: 100px;
-                border-radius: 10%;
-                border: solid @green-darner-tail 10px;
+                border-radius: 7%;
+                height: 500px;
+                border: solid @electron-blue 10px;
                 @media(max-width: 800px){
-                    margin-left: 4.8%;
+                    margin-left: 0%;
                     border: solid @green-darner-tail 10px;
                 }
                 @media(max-width: 500px){
@@ -118,12 +116,15 @@
     .buttonShaper(450px, auto);
     .buttonStyle(10px, @electron-blue, @city-lights);
     .buttonContent(3rem, center, center);
+    margin-left: 4.3%;
     &:hover{
         background-color: @city-lights;
         color: @electron-blue;
     }
     @media(max-width: 800px){
         .buttonShaper(100%, auto);
+        margin-left: 0;
+        margin-top: 75px;
     }
     @media(max-width: 500px){
         .buttonShaper(100%, auto);
@@ -136,6 +137,7 @@
     flex-direction: nowrap;
     justify-content: space-between;
     padding-top: 100px;
+    align-items: center;
     @media(max-width: 500px){
         margin: 5%;
         text-align: center;
@@ -162,19 +164,17 @@
             width: 40%;
             color: @electron-blue;
             text-align: center;
+            
             @media(max-width: 800px){
-                width: 100%;
-                
+                width: 100%;  
             }
             @media(max-width: 500px){
                 width: 100%;
-                
             }
-
             h1{
                 padding-bottom: 35px;
                 font-size: 6rem;
-                color: @green-darner-tail;     
+                color: @electron-blue;     
                 }
                     p{
                     font-size: 3rem;

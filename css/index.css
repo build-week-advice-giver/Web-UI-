@@ -350,10 +350,15 @@ footer .footerWrapper p {
   width: 40%;
   color: #0984e3;
   text-align: center;
+  background-color: #74b9ff;
+  border: solid #0984e3 5px;
+  border-radius: 2%;
+  height: 670px;
 }
 @media (max-width: 800px) {
   .topContentWrapper .topLeftContent {
     width: 100%;
+    padding: 2%;
   }
 }
 @media (max-width: 500px) {
@@ -362,16 +367,18 @@ footer .footerWrapper p {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    height: 1080px;
   }
 }
 .topContentWrapper .topLeftContent h1 {
   padding-bottom: 35px;
   font-size: 6rem;
-  color: #74b9ff;
+  color: white;
 }
 .topContentWrapper .topLeftContent p {
   font-size: 3rem;
   line-height: 4rem;
+  color: white;
 }
 @media (max-width: 500px) {
   .topContentWrapper .topLeftContent p {
@@ -399,12 +406,13 @@ footer .footerWrapper p {
 }
 .topContentWrapper .topRightContent img {
   margin-top: 100px;
-  border-radius: 10%;
-  border: solid #74b9ff 10px;
+  border-radius: 7%;
+  height: 500px;
+  border: solid #0984e3 10px;
 }
 @media (max-width: 800px) {
   .topContentWrapper .topRightContent img {
-    margin-left: 4.8%;
+    margin-left: 0%;
     border: solid #74b9ff 10px;
   }
 }
@@ -422,6 +430,7 @@ footer .footerWrapper p {
   display: flex;
   font-size: 3rem;
   justify-content: center;
+  margin-left: 4.3%;
 }
 .login-button:hover {
   background-color: #dfe6e9;
@@ -431,6 +440,8 @@ footer .footerWrapper p {
   .login-button {
     width: 100%;
     height: auto;
+    margin-left: 0;
+    margin-top: 75px;
   }
 }
 @media (max-width: 500px) {
@@ -444,6 +455,7 @@ footer .footerWrapper p {
   flex-direction: nowrap;
   justify-content: space-between;
   padding-top: 100px;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .bottomContentWrapper {
@@ -483,7 +495,7 @@ footer .footerWrapper p {
 .bottomContentWrapper .bottomRightContent h1 {
   padding-bottom: 35px;
   font-size: 6rem;
-  color: #74b9ff;
+  color: #0984e3;
 }
 .bottomContentWrapper .bottomRightContent p {
   font-size: 3rem;
