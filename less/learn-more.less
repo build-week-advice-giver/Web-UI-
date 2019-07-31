@@ -1,34 +1,52 @@
 
 .wrapper{
     background-color: @city-lights;
+    background-image: url(../img/black-and-white-blur-business-deal-1496186.jpg);
+    background-size: cover;
+    background-position: top;
+
 }
 
 
 .titleWrapper{
     width: 100%;
     height: 200px;
-    .flex(center, center);
-    padding-top: 200px;
+    .flex(flex-end, center);
+    padding-top: 300px;
     padding-bottom: 200px;
-
+    text-align: center;
+    flex-direction: row-reverse;
     @media(max-width: 500px){
         flex-direction: column;
         height: 350px;
+        padding-top: 370px;
     }
         h1{
-            font-size: 8rem;
+            font-size: 6rem;
             color: @electron-blue;
-            padding-left: 3%;
-        }
-
-        img{
+            background: @city-lights;
+            margin-right: 3%;
+            text-align: center;
+            border-radius: 3%;
             border: solid @electron-blue 4px;
-            border-radius: 50%;
+            text-transform: uppercase;
+            padding: 4%;
         }
 }
 
+// .imgContainer{
+//     display: flex;
+//     justify-content: flex-end;
+//     .adviceFlag{
+//         border: solid @electron-blue 4px;
+//         border-radius: 50%;
+//         @media(max-width: 500px){
+//             margin-bottom: 82px;
+//         }
+//     }
+// }
+
 .contentWrapper{
-    background-color: @city-lights;
     margin: 0 5% 5%;
     
 }
@@ -46,13 +64,17 @@
         text-align: center;
     }
        .topLeftContent{
-        width: 40%;
+        width: 45%;
         color: @electron-blue;
         text-align: center;
-        background-color: @green-darner-tail;
+        background-color: @city-lights;
         border: solid @electron-blue 5px;
         border-radius: 2%;
-        height: 670px;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         @media(max-width: 800px){
             width: 100%;
             padding: 2%;
@@ -62,24 +84,31 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            height: 1080px;
+            height: auto;
+            padding: 3%;
+            border-radius: 0;
+            
         }
 
             h1{
             padding-bottom: 35px;
             font-size: 6rem;
-            color: white;
+            color: @electron-blue;
             }
                 p{
                 font-size: 3rem;
                 line-height: 4rem;
-                color: white;
+                color: @electron-blue;
                 @media(max-width: 500px){
                     padding-bottom: 50px;
                     margin: 5%;
-                }
+                    }
                 }
        }
+            button{
+                text-align: center;
+            }
+
        .topRightContent{
         width: 50%;
         height: 300px;
@@ -93,15 +122,13 @@
             width: 0px;
             height: 0px;
         }
-
             img{
                 margin-top: 100px;
                 border-radius: 7%;
                 height: 500px;
                 border: solid @electron-blue 10px;
                 @media(max-width: 800px){
-                    margin-left: 0%;
-                    border: solid @green-darner-tail 10px;
+                    display: none;  
                 }
                 @media(max-width: 500px){
                     display: none;
@@ -116,7 +143,6 @@
     .buttonShaper(450px, auto);
     .buttonStyle(10px, @electron-blue, @city-lights);
     .buttonContent(3rem, center, center);
-    margin-left: 4.3%;
     &:hover{
         background-color: @city-lights;
         color: @electron-blue;
@@ -134,9 +160,9 @@
 
 .bottomContentWrapper{
     display: flex;
-    flex-direction: nowrap;
+    flex-direction: column;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 200px;
     align-items: center;
     @media(max-width: 500px){
         margin: 5%;
@@ -151,8 +177,10 @@
                 img{
                     border-radius: 50px;
                     border: solid @electron-blue 10px;
+                    margin-bottom: 200px;
                     @media(max-width: 800px){
-                        display: none;
+                        margin-left: 0%;
+                        border: solid @green-darner-tail 10px;
                     }
                     @media(max-width: 500px){
                         display: none;
@@ -161,9 +189,14 @@
         }
         
         .bottomRightContent{
-            width: 40%;
+            width: 100%;
             color: @electron-blue;
             text-align: center;
+            background: @city-lights;
+            padding-bottom: 10px;
+            height: auto;
+            border: solid @electron-blue 5px;
+            padding: 5%;
             
             @media(max-width: 800px){
                 width: 100%;  

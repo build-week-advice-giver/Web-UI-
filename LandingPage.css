@@ -1,6 +1,13 @@
 html{
-    color: #dfe6e9;
-     
+    
+    background-image: url(art-background-blue-268415.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 62.5%
+}
+
+.container{
+padding-bottom: 200px;
 }
 
 a{
@@ -8,17 +15,25 @@ a{
     color: #74b9ff;
     font-family: Courier;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
     /* @media (max-width: 500px){
 
     } */
 }
+
+a:hover{
+    color: #dfe6e9;
+    font-size: 2.3rem;
+}
+
 
 .nav{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
     padding-top: 20px;
+    background: #0984e3;
 }
 
 
@@ -53,10 +68,12 @@ a{
     height: 40px;
     margin-top: 0;
     text-align: center;
-    color: #ffffff;
+    color: #dfe6e9;
     font-family: Courier New;
-    font-size: 35px;
     font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 6rem;
+    padding-bottom: 10px;
 }
 
 .description{
@@ -72,13 +89,20 @@ button{
     width: 100px;
     height: 80px;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
-.button{
-    text-align: right;
+button:hover{
+    background: #dfe6e9;
+    color: #0984e3;
+}
+
+button{
+    text-align: center;
     margin-right: 300px;
+    width: 50%;
+    
   
 }
 
@@ -109,6 +133,7 @@ button{
     justify-content: space-between;
     font-weight: bold;
     align-items: center;
+    padding-top: 200px;
 }
 
 .paragraph{
@@ -119,7 +144,10 @@ button{
 p{
     font-family: Courier New;
     font-size: 40px;
-    color: #74b9ff;
+    color: #0984e3;
+    background: #dfe6e9;
+    border: solid;
+    padding: 3%;
 }
 
 sizing{
