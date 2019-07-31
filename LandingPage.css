@@ -1,17 +1,17 @@
 html{
-    /* background-color: #FBE8A6; */
-    background-image: url("../Web-UI-/art-background-blue-268415.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: #dfe6e9;
      
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #74b9ff;
     font-family: Courier;
     font-weight: bold;
+    font-size: 20px;
+    /* @media (max-width: 500px){
+
+    } */
 }
 
 .nav{
@@ -23,10 +23,9 @@ a{
 
 
 .hands-image{
-    background-image: url("../Web-UI-/bonding-daylight-friends-1645634.jpg");
+    background-image: url("bonding-daylight-friends-1645634.jpg");
     width: 100%;
     height: 600px;
-    /* opacity: 0.9; */
     transition: 0.2s;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,6 +33,10 @@ a{
     overflow: hidden;
     border-radius: 50%;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1px;
+    border:5px solid#74b9ff;
 
 }
 
@@ -46,11 +49,11 @@ a{
 }
 
 .quote{
-    background-color:rgb(248, 247, 246);
+    background-color:#0984e3;
     height: 40px;
     margin-top: 0;
     text-align: center;
-    color: #303C6C;
+    color: #ffffff;
     font-family: Courier New;
     font-size: 35px;
     font-weight: bolder;
@@ -59,13 +62,13 @@ a{
 .description{
     text-align: center;
     font-size: 24px;
-    color: #303C6C;
+    color: #0984e3;
 }
 
 button{
-    background-color: rgb(255, 136, 0);
+    background-color: #0984e3;
     font-family: Courier New;
-    color:  #303C6C;
+    color: #ffffff;
     width: 100px;
     height: 80px;
     border-radius: 30px;
@@ -83,6 +86,7 @@ button{
     height: 520px;
     width: 620px; 
     border-radius: 8px;
+    border:3px solid#0984e3;
     
 }
 
@@ -90,12 +94,14 @@ button{
     height: 520px;
     width: 620px; 
     border-radius: 8px;
+    border:3px solid#0984e3;
 }
 
 .third-image{
     height: 520px;
     width: 620px; 
     border-radius: 8px;
+    border:3px solid#0984e3;
 }
 
 .flex{
@@ -113,7 +119,7 @@ button{
 p{
     font-family: Courier New;
     font-size: 40px;
-    color: black;
+    color: #74b9ff;
 }
 
 sizing{
