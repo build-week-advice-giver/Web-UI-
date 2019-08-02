@@ -251,6 +251,7 @@ img {
   color: #74b9ff;
   font-size: 2rem;
   text-transform: uppercase;
+  transition: all 0.5s;
 }
 .header .topNav ul li a:hover {
   color: #dfe6e9;
@@ -314,6 +315,62 @@ footer .footerWrapper {
 footer .footerWrapper p {
   font-size: 1.6rem;
   color: #dfe6e9;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: url(../img/mountians.jpg);
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.intro .inner .topContent-home {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro .inner .topContent-home .title-home-page {
+  font-weight: 100;
+  font-size: 800%;
+  line-height: 200%;
+  color: #0984e3;
+}
+@media (max-width: 500px) {
+  .intro .inner .topContent-home .title-home-page {
+    line-height: 100%;
+  }
+}
+.text {
+  font-size: 200%;
+  color: #00213c;
+  margin-bottom: 30px;
+}
+.btn {
+  font-size: 240%;
+  font-weight: 400;
+  color: #dfe6e9;
+  background-color: #0984e3;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 9px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  border: solid #dfe6e9 2px;
+  background-color: #00213c;
 }
 .wrapper {
   background-color: #dfe6e9;
@@ -428,8 +485,9 @@ footer .footerWrapper p {
     font-size: 2.3rem;
   }
 }
-.topContentWrapper button {
+.topContentWrapper a {
   text-align: center;
+  text-decoration: none;
 }
 .topContentWrapper .topRightContent {
   width: 50%;
@@ -474,10 +532,12 @@ footer .footerWrapper p {
   display: flex;
   font-size: 3rem;
   justify-content: center;
+  transition: all 0.5s;
 }
 .login-button:hover {
-  background-color: #74b9ff;
+  background-color: #dfe6e9;
   color: #0984e3;
+  border: solid #0984e3;
 }
 @media (max-width: 800px) {
   .login-button {
@@ -562,9 +622,15 @@ footer .footerWrapper p {
     font-size: 2rem;
   }
 }
-html {
-  background-image: url(../img/background-bright-clouds-584414.jpg);
+.html,
+.container1 {
+  height: auto;
+  width: auto;
+}
+.container1 {
+  background-image: url(../img/mountians.jpg);
   background-size: cover;
+  background-position: center;
 }
 .content {
   margin-left: 8%;
