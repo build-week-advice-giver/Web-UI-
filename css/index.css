@@ -372,11 +372,17 @@ body {
   border: solid #dfe6e9 2px;
   background-color: #00213c;
 }
+.html1,
+.wrapper {
+  height: auto;
+  width: auto;
+}
 .wrapper {
   background-color: #dfe6e9;
   background-image: url(../img/black-and-white-blur-business-deal-1496186.jpg);
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
 }
 .titleWrapper {
   width: 100%;
