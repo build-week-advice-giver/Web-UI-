@@ -567,12 +567,55 @@ html {
   background-size: cover;
 }
 .content {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
   padding-top: 200px;
 }
-.content .kevin {
+@media (max-width: 500px) {
+  .content {
+    text-align: center;
+  }
+}
+.content .titleContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
   padding-bottom: 200px;
+  text-align: center;
+}
+.content .titleContainer h1 {
+  font-size: 6rem;
+  color: #0984e3;
+  background: #dfe6e9;
+  text-align: center;
+  border-radius: 3%;
+  border: solid #0984e3 4px;
+  text-transform: uppercase;
+  padding: 4%;
+}
+@media (max-width: 500px) {
+  .content .titleContainer h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 800px) {
+  .content .kevin {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .content .kevin {
+    text-align: center;
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .content .kevin .LI-row {
+    display: flex;
+  }
 }
 .content h1 {
   font-size: 5rem;
@@ -582,6 +625,14 @@ html {
   width: 85%;
   height: auto;
   padding-left: 2%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .content h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-left: 8%;
+  }
 }
 .content h1 strong {
   text-transform: uppercase;
@@ -607,11 +658,47 @@ html {
   padding-top: 20px;
 }
 .content .rose {
-  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.content .justin {
-  padding-bottom: 200px;
+@media (max-width: 800px) {
+  .content .rose {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .content .rose {
+    padding-bottom: 150px;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .content .justin {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .content .justin {
+    padding-bottom: 150px;
+    text-align: center;
+  }
 }
 .content .juan {
   padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .content .juan {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .content .juan {
+    padding-bottom: 150px;
+    align-items: center;
+  }
 }

@@ -4,11 +4,46 @@ html{
 }
 
 .content{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     padding-top: 200px;
-        .kevin{
+    @media(max-width: 500px){
+        text-align: center;
+    }
+        .titleContainer{
+            width: 100%;
+            height: 200px;
+            .flex(center, center);
+            padding-top: 300px;
             padding-bottom: 200px;
+            text-align: center;
+                h1{
+                    font-size: 6rem;
+                    color: @electron-blue;
+                    background: @city-lights;
+                    text-align: center;
+                    border-radius: 3%;
+                    border: solid @electron-blue 4px;
+                    text-transform: uppercase;
+                    padding: 4%;
+                    @media(max-width: 500px){
+                        font-size: 4rem;
+                    }
+                }
+        }
+        .kevin{
+            @media(max-width: 800px){
+                padding-bottom: 150px;
+            }
+            @media(max-width: 500px){
+                text-align: center;
+                padding-bottom: 150px;
+            }
+            .LI-row{
+                @media(max-width: 500px){
+                    display: flex;
+                }
+            }
         }
             h1{
                 font-size: 5rem;
@@ -18,6 +53,13 @@ html{
                 width: 85%;
                 height: auto;
                 padding-left: 2%;
+                text-align: center;
+                @media(max-width: 500px){
+                    font-size: 3.5rem;
+                    text-align: center;
+                    margin-left: 8%;
+                }
+
                     strong{
                         text-transform: uppercase;
 
@@ -44,13 +86,39 @@ html{
                 padding-top: 20px;
             }
         .rose{
-            padding-bottom: 200px;
-            
-        }
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            @media(max-width: 800px){
+                padding-bottom: 150px;
+            }
+            @media(max-width: 500px){
+                padding-bottom: 150px;
+                align-items: center;
+            }
+        }   
         .justin{
-            padding-bottom: 200px;
+            @media(max-width: 800px){
+                padding-bottom: 150px;
+            }
+            @media(max-width: 500px){
+                padding-bottom: 150px;
+                text-align: center;
+            }
         }
         .juan{
             padding-bottom: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: center;
+            @media(max-width: 800px){
+                padding-bottom: 150px;
+            }
+            @media(max-width: 500px){
+                padding-bottom: 150px;
+                align-items: center;
+            }
         }
 }
+
