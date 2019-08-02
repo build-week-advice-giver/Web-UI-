@@ -6,6 +6,7 @@ html{
 }
 
 
+
 .header{
 padding-bottom: 200px;
 }
@@ -41,6 +42,7 @@ label{
     width: 26px;
     float: right;
 }
+
 #toggle {
 display: none;
 }
@@ -147,6 +149,7 @@ button{
     
 }
 
+
 .second-image{
     height: 520px;
     width: 620px; 
@@ -183,7 +186,88 @@ p{
     padding: 3%;
 }
 
-sizing{
-    display:flex;
-    align-items: center;
+@media (max-width: 500px) {
+    .flex{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+    }
+    .image1{
+        padding-top:0;
+    }
+    .image2{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .first-image {
+        height: 300px;
+        width: 295px; 
+        border-radius: 8px;
+        border:3px solid#0984e3;
+        display:block;
+    }
+    .second-image {
+        height: 300px;
+        width: 295px; 
+        border-radius: 8px;
+        border:3px solid#0984e3;
+        display:block;
+    }
+        .third-image {
+            height: 300px;
+            width: 295px; 
+            border-radius: 8px;
+            border:3px solid#0984e3;
+            display:block;
+        }
+        p{
+            font-size: 30px;
+        }
+        button{
+            margin-right: 0;
+        }
+        
 }
+   
+    @media (max-width: 800px) {
+        .flex{
+            display:flex;
+            flex-direction:column;
+            align-content: center;
+        }
+        .image1{
+            padding-top:0;
+        }
+        .image2{
+            display:flex;
+            flex-direction:column-reverse;
+        }
+        .first-image {
+            height: 400px;
+            width: 395px; 
+            border-radius: 8px;
+            border:3px solid#0984e3;
+            display:block;
+        }
+        .second-image {
+            height: 400px;
+            width: 395px; 
+            border-radius: 8px;
+            border:3px solid#0984e3;
+            display:block;
+        }
+            .third-image {
+                height: 400px;
+                width: 395px; 
+                border-radius: 8px;
+                border:3px solid#0984e3;
+                display:block;
+            }
+         p{
+                font-size: 30px;
+            }
+        button{
+                margin-right: 0;
+            }
+            
+    }
