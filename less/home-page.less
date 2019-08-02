@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(../img/mountians.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+        .inner{
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            max-width: none;
+                .topContent-home{
+                    max-width: 800px;
+                    margin: 0 auto;
+                    text-align: center;
+                        .title-home-page{
+                            font-weight: 100;
+                            font-size: 800%;
+                            line-height: 200%;
+                            color: @electron-blue;
+                            @media(max-width: 500px){
+                                line-height: 100%;
+                            }
+                        }  
+                }
+        }
+}
+.text{
+    font-size: 200%;
+    color: #00213c;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 240%;
+    font-weight: 400;
+    color: @city-lights;
+    background-color: @electron-blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    transition: all 0.5s;
+    &:hover{
+        border: solid @city-lights 2px;
+        background-color: #00213c;
+    }
+}

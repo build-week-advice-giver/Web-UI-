@@ -112,8 +112,9 @@
                     }
                 }
        }
-            button{
+            a{
                 text-align: center;
+                text-decoration: none;
             }
 
        .topRightContent{
@@ -150,9 +151,11 @@
     .buttonShaper(450px, auto);
     .buttonStyle(10px, @electron-blue, @city-lights);
     .buttonContent(3rem, center, center);
+    transition: all 0.5s;
     &:hover{
-        background-color: @green-darner-tail;
+        background-color: @city-lights;
         color: @electron-blue;
+        border: solid @electron-blue;
     }
     @media(max-width: 800px){
         .buttonShaper(100%, auto);
