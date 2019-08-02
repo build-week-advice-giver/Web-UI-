@@ -1,12 +1,12 @@
 html{
-    
     background-image: url(art-background-blue-268415.jpg);
     background-size: cover;
     background-position: center;
-    font-size: 62.5%
+    font-size: 62.5%   
 }
 
-.container{
+
+.header{
 padding-bottom: 200px;
 }
 
@@ -17,9 +17,6 @@ a{
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
-    /* @media (max-width: 500px){
-
-    } */
 }
 
 a:hover{
@@ -34,6 +31,42 @@ a:hover{
     padding-bottom: 20px;
     padding-top: 20px;
     background: #0984e3;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+display: none;
+}
+
+@media only screen and (max-width: 500px){
+    label {
+        display: block;
+        cursor: pointer;   
+        color:#dfe6e9;
+        font-size: 45px;
+    }
+    .nav{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .nav a{
+        clear: right;
+        display: block;
+        border-bottom: 1px solid #74b9ff;
+        margin: 0;
+        line-height: 70px;
+    }
+    #toggle:checked + .nav{
+        display: block;
+    }
 }
 
 
