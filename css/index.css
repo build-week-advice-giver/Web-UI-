@@ -492,6 +492,7 @@ body {
 @media (max-width: 500px) {
   .intro .inner .topContent-home .title-home-page {
     line-height: 100%;
+    padding-bottom: 50px;
   }
 }
 .text {
