@@ -519,7 +519,7 @@ body {
   background-color: #00213c;
 }
 .html1 {
-  background-image: url(../img/black-and-white-blur-business-deal-1496186.jpg);
+  background-image: url(../img/blue-circles.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -644,14 +644,14 @@ body {
   height: 520px;
   width: 620px;
   border-radius: 8px;
-  border: 3px solid #0984e3;
+  border: 3px solid #124973;
 }
 @media (max-width: 800px) {
   .first-image {
     height: 400px;
     width: 395px;
     border-radius: 8px;
-    border: 3px solid #0984e3;
+    border: 3px solid #124973;
     display: block;
     align-self: center;
   }
@@ -661,7 +661,7 @@ body {
     height: 300px;
     width: 295px;
     border-radius: 8px;
-    border: 3px solid #0984e3;
+    border: 3px solid #124973;
     display: block;
     align-self: center;
   }
@@ -670,14 +670,14 @@ body {
   height: 520px;
   width: 620px;
   border-radius: 8px;
-  border: 3px solid #0984e3;
+  border: 3px solid #124973;
 }
 @media (max-width: 800px) {
   .second-image {
     height: 400px;
     width: 395px;
     border-radius: 8px;
-    border: 3px solid #0984e3;
+    border: 3px solid #124973;
     display: block;
     align-self: center;
   }
@@ -687,7 +687,7 @@ body {
     height: 300px;
     width: 295px;
     border-radius: 8px;
-    border: 3px solid #0984e3;
+    border: 3px solid #124973;
     display: block;
     align-self: center;
   }
@@ -696,14 +696,14 @@ body {
   height: 520px;
   width: 620px;
   border-radius: 8px;
-  border: 3px solid #0984e3;
+  border: 3px solid #124973;
 }
 @media (max-width: 800px) {
   .third-image {
     height: 400px;
     width: 395px;
     border-radius: 8px;
-    border: 3px solid #0984e3;
+    border: 3px solid #124973;
     display: block;
     display: none;
   }
@@ -713,7 +713,7 @@ body {
     height: 300px;
     width: 295px;
     border-radius: 8px;
-    border: 3px solid #0984e3;
+    border: 3px solid #124973;
     display: block;
     display: none;
   }
@@ -777,9 +777,9 @@ body {
 }
 .texts {
   font-family: Courier New;
-  font-size: 40px;
-  color: #0984e3;
-  background: #dfe6e9;
+  font-size: 30px;
+  color: #124973;
+  background: white;
   border: solid;
   padding: 3%;
   margin-bottom: 30px;
@@ -823,7 +823,7 @@ body {
   text-align: center;
 }
 .content .titleContainer h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   color: #0984e3;
   background: #dfe6e9;
   text-align: center;
@@ -913,7 +913,7 @@ body {
   align-items: flex-end;
 }
 .content .rose h2 {
-  color: #08141d;
+  color: white;
 }
 @media (max-width: 800px) {
   .content .rose {
@@ -927,7 +927,7 @@ body {
   }
 }
 .content .justin h2 {
-  color: #000000;
+  color: white;
 }
 @media (max-width: 800px) {
   .content .justin {
@@ -948,7 +948,7 @@ body {
   text-align: center;
 }
 .content .juan h2 {
-  color: #000000;
+  color: white;
 }
 @media (max-width: 800px) {
   .content .juan {
