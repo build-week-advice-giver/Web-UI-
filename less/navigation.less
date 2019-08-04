@@ -1,3 +1,4 @@
+
 .header{
     position: fixed;
     z-index: 999;
@@ -14,6 +15,7 @@
             padding-bottom: 10px;
             text-transform: uppercase;
             font-size: 6rem;
+            font-weight: 100;
             @media(max-width: 500px){
                 font-size: 3rem;
             }
@@ -85,6 +87,9 @@
                                     opacity: 0;
                                     transition: opacity 150ms ease-in-out;
                                     font-size: 1.5rem;
+                                    &:hover{
+                                        transition: all 0.5s;
+                                    }
                                 }
                             }
                     }
@@ -132,3 +137,142 @@
         }
 
     }
+
+    .header1{
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 45px;
+        background-color: @electron-blue;
+        @media(max-width: 500px){
+            text-align: center;
+            padding-top: 20px;
+        }
+            h1{
+                text-align: center;
+                color: @city-lights;
+                padding-bottom: 10px;
+                text-transform: uppercase;
+                font-size: 6rem;
+                font-weight: 100;
+                @media(max-width: 500px){
+                    font-size: 3rem;
+                }
+            
+            }
+    
+            .topImg{
+                padding-left: 100px;
+                border-radius: 36%;
+                @media(max-width: 500px){
+                    border-radius: none;
+                    width: 50%;
+                    padding-left: 0;   
+                }
+            }
+            .nav-toggle:checked ~ nav{
+                transform: scale(1,1)
+            }
+    
+            .nav-toggle:checked ~ nav a {
+                opacity: 1;
+                transition: opacity 250ms ease-in-out 250ms;
+            }
+    
+            .nav-toggle{
+                display: none;
+            }
+            .topNav{
+            @media(max-width: 500px){
+                position: absolute;
+                text-align: left;
+                top: 100%;
+                left: 0;
+                background: @electron-blue;
+                width: 100%;
+                transform: scale(1,0);
+                transform-origin: top;
+                transition: transform 400ms ease-in-out;
+            }
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    height: 40px;
+                    align-items: center;
+                    @media(max-width: 500px){
+                        margin: 0;
+                        padding: 0;
+                    }
+                        li{
+                            margin-bottom: 1em;
+                            margin-left: 1em;
+    
+                            @media(max-width: 500px){
+                                margin-bottom: 1em;
+                                margin-left: 1em;
+                            }
+    
+                                a{
+                                    text-decoration: none;
+                                    color: @green-darner-tail;
+                                    font-size: 2rem;
+                                    text-transform: uppercase;
+                                    transition: all 0.5s;
+                                    &:hover{
+                                        color: @city-lights;
+                                        font-size: 2.3rem;
+                                    }
+                                    @media(max-width: 500px){
+                                        opacity: 0;
+                                        transition: opacity 150ms ease-in-out;
+                                        font-size: 1.5rem;
+                                        &:hover{
+                                            transition: all 0.5s;
+                                        }
+                                    }
+                                }
+                        }
+                }
+    
+            }
+            .nav-toggle-label{
+                display: none;
+    
+                @media(max-width: 500px){
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    margin-left: 1em;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;       
+                }
+    
+                    span,
+                    span::before,
+                    span::after{
+                        display: block;
+                        background: white;
+                        height: 2px;
+                        width: 2em;
+                        border-radius: 2px;
+                        position: relative;
+                    }
+    
+                    span::before,
+                    span::after{
+                        content: "";
+                        position: absolute;
+                    }
+    
+                    span::before{
+                        bottom: 7px;
+                    }
+    
+                    span::after{
+                        top: 7px;
+                    }
+    
+            }
+    
+        }

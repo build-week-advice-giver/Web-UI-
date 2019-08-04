@@ -21,3 +21,11 @@ For your project this week, you will demonstrate proficiency by working with a g
 - [ ]  For this Marketing site's home page you need to have content and copy that relates to the product that your team is workinfg on.
 - [ ]  Descriptions about the product and about the features it provides would be key.
 - [ ]  For a second page, you could do an about us section that includes images of the members of your team, and links to one another's socials/Github.
+
+<link href="css/waypoints.css" rel="stylesheet"/>
+	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="js/waypoints.js" type="text/javascript"></script>
+    	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  
