@@ -499,6 +499,11 @@ body {
   color: #00213c;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  .text {
+    font-size: 190%;
+  }
+}
 .btnSlidein {
   animation-name: slideInLeft;
   animation-duration: 1s;
